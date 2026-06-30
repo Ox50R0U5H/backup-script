@@ -1,0 +1,25 @@
+# Backup script runtime output
+backup_*/
+*.log
+*.gz
+*.tar.gz
+*.tar.gz.gpg
+backup_manifest.txt
+failed_files.txt
+
+# Sensitive configuration
+.msmtprc
+*.msmtp.log
+.env
+
+# Cron wrapper (machine-specific, auto-generated)
+/tmp/backup_cron_wrapper.sh
+backup_cron_wrapper.sh
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
