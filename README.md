@@ -350,15 +350,6 @@ sudo apt install <package> --fix-missing
 
 ---
 
-## 🗺️ Roadmap
-
-- [ ] Support reading password from a file or environment variable
-- [ ] Add an incremental backup flag
-- [ ] Support cloud upload (S3 / Google Drive)
-- [ ] Add automated tests (bats-core)
-
----
-
 ## 🤝 Contributing
 
 Pull requests and issues are welcome! For major changes, please open an issue first.
